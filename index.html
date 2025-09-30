@@ -6,15 +6,16 @@
     <meta name="description" content="Basic HTML Website">
 
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
     <link rel="manifest" href="/site.webmanifest">
 
     <title>ABC Interior Designers</title>
 </head>
 <body>
     <header id="site-header">
-        <a href="index.html"><img src="favicon/favicon-32x32.png" alt="" id="home-icon"></a>
+        <a href="index.html"><img src="assets/favicon/android-chrome-192x192.png" alt="" id="home-icon"></a>
     </header>
+
     <nav id="nav-bar">
         <ul>
             <li><a href="projects.html">Projects</a></li>
@@ -23,9 +24,53 @@
         </ul>
     </nav>
 
-    <div id="home-greeting">
-        <h1>ABC INTERIOR DESIGNERS</h1>
-        <h2>GOING BEYOND THE NORM</h2>
-    </div>
+    <section id="home-section">
+        <div id="home-greeting">
+            <h1>ABC INTERIOR DESIGNERS</h1>
+            <h2>GOING BEYOND THE NORM</h2>
+            <p>
+                The goal of our interior design company is to deliver innovative and functional design 
+                solutions that enhance both the aesthetic appeal and practical usability of interior 
+                spaces. We are committed to creating environments that align with our clients’ vision 
+                while upholding the highest standards of quality, efficiency, and professionalism. By 
+                integrating strategic design principles, premium materials, and meticulous project 
+                management, our objective is to transform spaces into enduring assets that reflect 
+                sophistication, support productivity, and add long-term value.</p>
+        </div>
+
+        <div id="home-articles">
+            <h3>READ OUR LATEST ARTICLES</h3>
+            <a href="" id="home-display-article">
+                <img src="assets/images/limitless_articles_1.jpg" alt="limitless article" height="200px">
+                <h4>Colour Psychology & Design Styles</h4>
+                <p>
+                    The possibilities are endless when we are talking about home design. These are our top 5 
+                    tips for understanding and applying colours with your home design.
+                </p>
+            </a>
+            <a href="articles.html"><h4>MORE ARTICLES >></h4></a>
+        </div>
+
+        <div id="home-projects">
+            <h3>VIEW OUR LATEST PROJECT</h3>
+            <a href="" id="home-display-project">
+                <img src="assets/images/limitless_projects_1.jpg" alt="limitless project" height="200px">
+                <h4>Tampines Street 42, Blk 456</h4>
+                <p>
+                    Minimalist Scandinavian-inspired aesthetic, featuring neutral tones, natural wood finishes, 
+                    and clean lines that create a calm, airy atmosphere. Soft, plush seating is paired with 
+                    sleek shelving and subtle decor accents, balancing comfort with modern sophistication.
+                </p>
+            </a>
+            <a href="articles.html"><h4>MORE PROJECTS >></h4></a>
+        </div>
+    </section>
+
+    <footer id="home-footer">
+        <div id="footer-update"></div>
+        <div id="footer-socials"></div>
+        <div id="footer-discover"></div>
+        <div id="footer-contact"></div>
+    </footer>
 </body>
 </html>
